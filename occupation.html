@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Occupation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .grid-container {
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            grid-gap: 20px;
+        }
+        
+        .card {
+            border: 1px solid #d3d3d3;
+            border-radius: .25rem;
+        }
+        
+        .bg-img {
+            min-height: 180px;
+        }
+        
+        .content {
+            padding: 15px;
+        }
+        
+        button {
+            background-color: transparent;
+            border: 1px solid #2196F3;
+            padding: .5rem 1rem;
+            cursor: pointer;
+            border-radius: .25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <h1>
+            <b>Welcome to Occupation Details!!!</b>
+        </h1>
+    </div>
+
+    <!-- <div id="middle"> -->
+    <div class="grid-container">
+        <div class="card">
+            <div class="bg-img">
+                <img src="lemon.png">
+            </div>
+            <div class="content">
+                <h4> Junior Software Developer At Lemon Technologies</h4>
+                <p> Worked as a Junior Software Developer at lemontechnologies fore almost 2.5 years. </p>
+                <a class="btn btn-primary" href="LemonTechnologies.html" role="button">Read More</a>
+            </div>
+            <!-- <button>Readmore</button> </div> -->
+        </div>
+        <div class="card">
+            <div class="bg-img">
+                <img src="cognixia.png">
+            </div>
+            <div class="content">
+                <h4>Application Developer at Cognixia</h4>
+                <p> Worked as a Intern at Cognixia for 6 months during my graduation. </p>
+                <a class="btn btn-primary" href="Cognixia.html" role="button">Read More</a>
+                <!-- <button>Readmore</button> -->
+            </div>
+        </div>
+    </div>
+    <!-- <a class="btn btn-primary btn-lg btn-block" href="LemonTechnologies.html" role="button">Software Developer at Lemon Technologies</a>
+        <a class="btn btn-primary btn-lg btn-block" href="Cognixia.html" role="button">Application Developer at Cognixia</a>
+    </div> -->
+</body>

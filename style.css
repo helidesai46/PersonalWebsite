@@ -1,0 +1,21 @@
+@media screen {
+    body {
+        color: black;
+    }
+}
+
+@media print {
+    body {
+        color: blue;
+    }
+}
+
+body {
+    background-image: url(background5.jpg);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
